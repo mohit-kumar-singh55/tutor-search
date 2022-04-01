@@ -10,13 +10,13 @@ function CourseCart({
 }) {
   return (
     <div className="flex rounded-md transition-all ease-in-out">
-      <div className="w-[320px] overflow-hidden rounded-2xl  pb-[22px] font-poppins shadow-xl ring-2 ring-[#FC4D6D] ring-opacity-10">
+      <div className="w-[350px] overflow-hidden rounded-2xl  pb-[20px] font-poppins shadow-xl ring-2 ring-[#FC4D6D] ring-opacity-10">
         <CoverSection />
         <TutorDetails
           space={'-mt-[1.8rem] ml-[105px] '}
           imgPosition={'-top-[3rem] left-[-5.5rem]'}
         />
-        <div className="flex flex-col items-center gap-3 p-4 ">
+        <div className="flex flex-col items-center gap-3 py-4 px-2">
           <Language />
           <ActiveFinishedRatingBox />
           <Description />
@@ -29,7 +29,7 @@ function CourseCart({
 
   function CoverSection() {
     return (
-      <div className="relative  overflow-hidden rounded-t-2xl rounded-br-[30px] h-[200px]">
+      <div className="relative  overflow-hidden rounded-t-2xl rounded-br-[30px] h-[210px]">
         <Image
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/RQAAuEB4mUJ9Y0AAAAASUVORK5CYII="
@@ -92,7 +92,7 @@ function CourseCart({
   function Language({ space }) {
     return (
       <div
-        className={`text-[11px] font-medium text-[#474747] ${space}  mb-[18px] flex flex-col gap-[12.55px]`}
+        className={`text-[11px] font-medium text-[#474747] ${space} w-full items-start pl-3 mb-[18px] flex flex-col gap-[12.55px]`}
       >
         <span className="flex items-center gap-[15px]">
           <Image
@@ -118,7 +118,7 @@ function CourseCart({
 
   function ActiveFinishedRatingBox({ space }) {
     return (
-      <div className={`flex   ${space} justify-between gap-2  font-bold text-[13px] mb-2`}>
+      <div className={`flex   ${space} justify-between gap-2  font-bold text-[13px] mb-2 w-full px-3`}>
         <TransparentBox title={'Active '} title2={'Students'} num="3" />
         <TransparentBox title={'Session '} title2={'finished'} num="45" />
         <TransparentBox title={'4.5'} title2={'Rating'} img={true} num="172" />
@@ -128,7 +128,7 @@ function CourseCart({
       return (
         <div
           className=" transparent-box    flex flex-col items-center justify-center
-          rounded-xl px-4 text-center font-monts text-[10px] capitalize"
+          rounded-xl px-4 text-center font-monts text-[11px] capitalize w-[100px] h-[54px]"
         >
           <div className="text-[#474747]">
             <span className="flex items-center justify-center  leading-[16px]">
