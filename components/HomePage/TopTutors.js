@@ -4,7 +4,7 @@ import Link from 'next/link'
 function TopTutors() {
   return (
     <div className="snap-fullPage h-full">
-      <main className="flex h-full w-full max-w-[calc(1440px-200px)] items-center flex-wrap justify-center gap-8 md:justify-between">
+      <main className="flex h-full w-full max-w-[calc(1440px-200px)] items-center flex-wrap justify-center gap-8 md:justify-evenly lg:justify-evenly xl:justify-between">
         <div className="flex items-center justify-center w-full lg:hidden">
           <Link href={'/tutors'}>
             <a className=" ">

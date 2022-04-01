@@ -37,7 +37,7 @@ function CourseCart({
           src={coverImg}
           height={191}
           width={383}
-          alt=""
+          alt="user"
         />
         <div className="transparent-box absolute top-0 rounded-br-3xl px-[23px] py-[10px] text-center font-poppins text-[12px] font-bold uppercase text-white ">
           {topRightTitle}
@@ -48,7 +48,7 @@ function CourseCart({
               src="/Images/CourseCart/Bookmark.png"
               layout='fill'
               objectFit='contain'
-              alt=""
+              alt="bookmark"
             />
           </div>
         </div>
@@ -62,7 +62,7 @@ function CourseCart({
         <div
           className={` absolute  ${imgPosition}  mr-4 flex h-[75px] w-[75px] items-center justify-center rounded-full ring-2 ring-white`}
         >
-          <Image src={tutorImg} alt="" height={75} width={75} />
+          <Image src={tutorImg} alt="tutor" height={75} width={75} />
         </div>
         <div className="flex gap-[8px]   ">
           <span className="text-[14px] font-semibold ">{tutorName}</span>
@@ -72,7 +72,7 @@ function CourseCart({
               src="/Images/CourseCart/verify-icon.svg"
               height={13}
               width={13}
-              alt=""
+              alt="icon"
             />
           </div>
           <div>
@@ -81,7 +81,7 @@ function CourseCart({
               src={countryLogo}
               width={14}
               height={15}
-              alt=""
+              alt="country"
             />
           </div>
         </div>
@@ -99,7 +99,7 @@ function CourseCart({
             src="/Images/CourseCart/topper-cap.svg"
             width={22}
             height={18}
-            alt=""
+            alt="cap"
           />
           <span>English, Geography, +3</span>
         </span>
@@ -108,7 +108,7 @@ function CourseCart({
             src="/Images/CourseCart/voice.svg"
             width={24}
             height={15}
-            alt=""
+            alt="voice"
           />
           <span>English (Native), Hindi (Conversational) +1</span>
         </span>
@@ -191,7 +191,7 @@ function CourseCart({
                 src="/Images/CourseCart/eye.svg"
                 height={12}
                 width={19}
-                alt=""
+                alt="eye"
               />
             </span>
             <span className="ml-[6px]">QuickView Details</span>
