@@ -165,11 +165,11 @@ function CourseCart({
       <div className={`z-20 relative flex justify-center ${space} cursor-pointer`}>
         <Link href={'/'}>
           <>
-            <a className="inline-block rounded-full backdrop-blur-md px-6 py-2 text-[14px] font-[600] text-[#FC4D6D] transition duration-150 ease-in-out hover:bg-[#FC4D6D] hover:text-white ">
+            <a className="w-[220px] text-center inline-block rounded-full backdrop-blur-md drop-shadow-lg shadow-lg px-6 py-2 text-[14px] font-[600] text-[#FC4D6D] transition duration-150 ease-in-out hover:bg-[#FC4D6D] hover:text-white ">
               Book Trial | $20/hr
             </a>
             <div className="-z-20">
-              <div className="w-[15px] h-[15px] gradientCircle left-[56px] top-[-4px] " />
+              <div className="w-[15px] h-[15px] gradientCircle left-[75px] top-[-4px] " />
               <div className="w-[35px] h-[35px] gradientCircle -bottom-2 right-[-7px]" />
               <div className="w-[27px] h-[27px] gradientCircle top-[1rem] left-[-2px]" />
             </div>
