@@ -1,0 +1,7 @@
+.full-page-snap-main {
+    @apply h-[calc(100vh-79px)] snap-y snap-mandatory overflow-scroll overflow-x-hidden scroll-smooth transition delay-150 duration-1000 ease-in-out scrollbar-hide
+}
+
+.gradientCircle {
+    @apply absolute rounded-full bg-gradient-to-t to-[#FC4D6D] from-[#FDA02F]
+}

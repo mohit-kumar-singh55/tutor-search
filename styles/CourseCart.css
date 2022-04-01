@@ -1,0 +1,5 @@
+.transparent-box {
+    background: linear-gradient(170.37deg, rgba(255, 255, 255, 0.4) 2.82%, rgba(255, 255, 255, 0.1) 95.21%);
+    box-shadow: -4px -4px 11px rgba(95, 95, 95, 0.25), 4px 4px 7px rgba(62, 62, 62, 0.17);
+    backdrop-filter: blur(20px);
+}

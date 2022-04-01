@@ -1,0 +1,63 @@
+.tutor-gradient {
+    @apply absolute top-0 h-full w-full;
+    background: linear-gradient(112.33deg, rgba(252, 77, 109, 0.61) 23.89%, rgba(253, 160, 47, 0.61) 94.22%);
+}
+
+@screen md {
+    .tutor-gradient {
+        background: linear-gradient(90.36deg, rgba(255, 124, 124, 0.62) 50.32%, rgba(196, 196, 196, 0) 109.79%);
+    }
+}
+
+.btn-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.slide-para-style {
+    @apply text-[14px] font-[500] font-roboto tracking-[0.065em] text-[#858585]
+}
+
+.menu-transition {
+    animation: transitionIn 0.75s;
+}
+
+.search-transition {
+    animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateY(-20deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+.white-linear-gradient {
+    background: rgba(107, 107, 107, 0.32);
+    @apply h-full w-full
+}
+
+@screen md {
+    .white-linear-gradient {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 56.9%, #FFFFFF 96.79%);
+    }
+}
+
+.bgColor {
+    background: rgba(214, 214, 214, 0.56);
+}
+
+
+/* .time {
+    @layer text-xl
+}
+
+@screen md {
+    .time {
+        @layer text-2xl
+    }
+} */

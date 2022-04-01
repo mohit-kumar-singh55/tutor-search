@@ -1,0 +1,35 @@
+.tutors-input-n-label-style {
+    @apply flex max-w-xl flex-col gap-2
+}
+
+.tutor-dashboard-label-style {
+    @apply font-semibold capitalize tracking-wider text-[#545454]
+}
+
+.tutor-dashboard-input-style {
+    @apply rounded-xl border-[1px] py-3 px-5 outline-none tracking-wider border-gray-300
+}
+
+@screen md {
+    .tutor-dashboard-input-style {
+        @apply w-96
+    }
+}
+
+.tutor-dashboard-btn {
+    @apply flex justify-center rounded-lg bg-[#FC4D6D] py-2 text-center font-roboto text-lg font-bold capitalize text-white px-8
+}
+
+.tutor-dashboard-back-btn {
+    @apply flex justify-center rounded-lg border-[1px] border-[#FC4D6D] py-2 text-center font-roboto text-lg font-bold capitalize text-[#FC4D6D] px-8
+}
+
+.dropzone {
+    text-align: center;
+    border: 3px dashed #eeeeee;
+    background-color: #fafafa;
+    color: #bdbdbd;
+}
+.align-self-center {
+    align-self: center;
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+.b-colo{
+    @apply text-[#1180BE] my-auto 
+}
+@tailwind utilities;
+.snap-fullPage {
+    @apply flex h-[calc(100vh-79px)] w-screen snap-start items-center justify-center overflow-hidden;
+}
+
+.snap-fullPage-footer {
+    @apply flex h-[calc(100vh-79px)] w-screen snap-start items-center justify-center;
+}
+
+@import url('./HomePage.css');
+@import url('./CourseCart.css');
+@import url('./TutorsDashboardPage.css');
+@import url('./TutorProfile.css');
+
+
+
+
+
+
+
+/* --------------TutorDashboard--------------- */
+
